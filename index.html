@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TicTacToe Game</title>
+     <link rel="stylesheet" href="styles.css">
+   </head>
+    <body>
+       <main>
+        <h1>TIC TAC TOE</h1>
+        <br>
+        <header id="header">
+            <div class="player player-active"
+            id="xPlayerDisplay"
+            onclick="choosePlayer('X')">
+            X
+            </div>
+            <h3 id="titleHeader">Choose</h3>
+            <div class="player"
+            id="oPlayerDisplay"
+            onclick="choosePlayer('O')">
+            O
+            </div>
+        </header>
+           <br>
+        <!-- Game mode selection -->
+        <div id="gameModeSelection">
+            <button id="vsPlayer" onclick="setGameMode('player')">Player vs Player</button>
+            <p>
+                <br>
+            </p>
+            <button id="vsComputer" onclick="setGameMode('computer')">Player vs Computer</button>
+        </div>
+             <br>
+             <br>
+        <div id="board">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+
+        <button id="restartbutton">
+            Restart
+        </button>
+        <br>
+        <br>
+        <div id="description">
+            <h2>Tic Tac Toe</h2>
+            <p>
+                Tic Tac Toe is a simple yet challenging game that people of all 
+                ages have enjoyed. Whether you are looking to challenge 
+                yourself or play with friends, Tic Tac Toe offers endless 
+                hours of entertainment.
+            </p>
+        
+            <h3>Basics of Tic Tac Toe</h3>
+            <p>
+                Tic Tac Toe is a game that takes place on a 3x3 grid. 
+                Two players take turns marking X and O on the grid until
+                 one player gets three in a row. The three in a row can 
+                 be horizontal, vertical, or diagonal. If all nine squares
+                  are filled without a winner, the game ends in a draw.
+            </p>
+        
+            <h3>XnOMania Modes</h3>
+            <p>
+                Our completely free game has several unique game modes that you should definitely try, including:
+            </p>
+            <ul>
+                <li>2-player mode.</li>
+                <li>Human against the computer at different levels of difficulty: easy, medium, and hard.</li>
+                <li>Human against the computer opponent with random first moves.</li>
+            </ul>
+        
+            <h3>Playing Tic Tac Toe Online</h3>
+            <p>
+                Playing Tic Tac Toe online has several advantages over playing it in person. It allows you to switch effortlessly between single-player and two-player modes, so you can challenge yourself or play with friends. Additionally, playing online is convenient and can be done from anywhere with an internet connection.
+            </p>
+        
+            <h3>Benefits of Playing Tic Tac Toe</h3>
+            <p>
+                Playing Tic Tac Toe has several benefits that go beyond pure entertainment. Firstly, it helps improve strategic thinking skills as players need to plan their moves ahead of time. This is especially true in two-player mode, where players need to anticipate their opponent's moves. Secondly, playing Tic Tac Toe can help enhance concentration and focus. Finally, playing Tic Tac Toe is an excellent way to spend your leisure time or take a break from more complex tasks.
+            </p>
+        
+            <p>
+                So what are you waiting for? Get started playing Tic Tac Toe for free on XnOMania today!
+            </p>
+        </div>
+        
+        <p>Copyright &copy; XnOMania 2024<span id="datee"></span>, All rights reserved</p>
+       </main>
+     <script src="script.js"></script>
+    
+    </body>
+</html>
